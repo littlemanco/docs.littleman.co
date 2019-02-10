@@ -10,4 +10,4 @@ steps:
       NODE_PATH: "./src/js:/usr/local/lib/node_modules:./node_modules"
     image: "quay.io/sitewards/antora"
     commands:
-      - "node_modules/.bin/antora --require 'generator' site.yml"
+      - "node_modules/.bin/antora --generator 'generator' site.yml"
