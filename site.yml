@@ -2,12 +2,12 @@
 site:
   title: "docs.littleman.co"
   url: "https://docs.littleman.co"
-  start_page: "general::index.adoc"
+  start_page: "business::index.adoc"
 content:
   sources:
     - url: "."
       branches: "HEAD"
-      start_path: "general"
+      start_path: "business"
 
 ui:
   bundle:
