@@ -1,0 +1,27 @@
+{
+  "name": "docs.littleman.co",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littlemanco/docs.littleman.co.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/littlemanco/docs.littleman.co/issues"
+  },
+  "homepage": "https://github.com/littlemanco/docs.littleman.co#readme",
+  "dependencies": {
+    "@antora/cli": "^2.0.0",
+    "@antora/content-aggregator": "^2.0.0",
+    "@antora/site-generator-default": "^2.0.0",
+    "antora-lunr": "^0.1.0",
+    "asciidoctor-plantuml": "^0.13.0",
+    "serve": "^10.1.2"
+  }
+}

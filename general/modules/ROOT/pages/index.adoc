@@ -1,0 +1,6 @@
+= Index
+
+Test Content
+
+
+What happens if I add more contnet? Does it propagate?

@@ -1,0 +1,25 @@
+---
+site:
+  title: "Documentation"
+  url: "https://docs.littleman.co"
+  start_page: "general::index.adoc"
+content:
+  sources:
+    - url: "."
+      branches: "HEAD"
+      start_path: "general"
+
+ui:
+  bundle:
+    url: "https://gitlab.com/g.grossetie/antora-ui-default/-/jobs/artifacts/lunr-integration/raw/build/ui-bundle.zip?job=bundle-dev"
+    snapshot: true
+
+asciidoc:
+  extensions:
+    - '/lib/asciidoctor-plantuml/adapter.js'
+  attributes:
+    plantuml-server-url: 'http://www.plantuml.com/plantuml'
+    plantuml-fetch-diagram: true
+
+output:
+  dir: web

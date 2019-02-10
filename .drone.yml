@@ -1,0 +1,13 @@
+---
+kind: "pipeline"
+name: "docs-web"
+
+steps:
+  - name: "antora"
+    environment:
+      DOCSEARCH_ENABLED: true
+      DOCSEARCH_ENGINE: "lunr"
+      NODE_PATH: "./src/js:/usr/local/lib/node_modules:./node_modules"
+    image: "quay.io/sitewards/antora"
+    commands:
+      - "node_modules/.bin/antora --require 'generator' site.yml"
