@@ -1,0 +1,7 @@
+= Media
+
+Media is any form of publication or distribution that littleman.co contributes to, distributes or otherwise partakes
+in. Currently there is:
+
+- https://medium.com/littlemanco/[Medium]
+- https://twitter.com/littlemanco/[Twitter]

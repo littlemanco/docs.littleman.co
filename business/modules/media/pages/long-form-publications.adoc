@@ -1,0 +1,15 @@
+= Long Form Publications
+
+Long form publications are any publication that is "reasonably long"; more than the 160 characters provided by Twitter,
+for example.
+
+They are broken down in to:
+
+|===
+| Type                | Description                                                                                       | Publication Stream
+
+| Labs                | A review of a new or experimental technology, not yet used in a production environment.           | Medium
+| Case Study          | A review of a previous technical or process intervention focussed on return on investment         | Medium, Website
+| Technical Analysis  | A general description of a technical implementation across many systems                           | Medium, Documentation
+| Deep Dive           | An in depth discussion of a given technical problem and solution                                  | Medium
+|===
