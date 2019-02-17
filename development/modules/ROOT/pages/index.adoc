@@ -1,0 +1,6 @@
+= Development
+
+The primary output product of littleman.co is software development. We produce a range of software, including:
+
+- eCommere software (especially Magento 2)
+- Infrastructure as code definitions (Kubernetes, Ansible)

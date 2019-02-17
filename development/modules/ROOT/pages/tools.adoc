@@ -1,0 +1,21 @@
+= Tools
+
+In order to successfully develop software littleman.co employs a range of tools. These include:
+
+== Cloud Services
+
+|===
+| Service      | Purpose
+
+| GitHub       | Software definitions, issue management
+| Google Cloud | Software Infrastructure
+| Google Apps  | Email, file storage
+|===
+
+== Development Tools
+
+|===
+| Tool         | Purpose
+
+| git          | Track changes to software over time
+|===

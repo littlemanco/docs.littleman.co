@@ -8,6 +8,9 @@ content:
     - url: "."
       branches: "HEAD"
       start_path: "business"
+    - url: "."
+      branches: "HEAD"
+      start_path: "development"
 
 ui:
   bundle:
