@@ -1,6 +1,6 @@
 ---
 site:
-  title: "docs.littleman.co"
+  title: "littleman.co | Documentation"
   url: "https://docs.littleman.co"
   start_page: "business::index.adoc"
 content:
