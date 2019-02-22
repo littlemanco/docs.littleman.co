@@ -6,8 +6,6 @@ labels: bug
 assignees: ''
 ---
 
-# Steps to reproduce
-
 1.
 2. ...
 

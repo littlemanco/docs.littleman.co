@@ -5,7 +5,7 @@ title: Clarification Request
 labels: documentation
 assignees: ''
 ---
-# Clarification Request
+
 <!--
 
   There are times where the answer for something simply isn't written down somewhere before, or that what's written
