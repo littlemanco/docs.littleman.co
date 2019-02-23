@@ -11,7 +11,7 @@ steps:
     image: "quay.io/sitewards/antora"
     commands:
       - "npm install"
-      - "node_modules/.bin/antora --generator 'generator' site.yml"
+      - "node node_modules/.bin/antora --generator 'generator' site.yml"
 
 ---
 kind: "pipeline"
