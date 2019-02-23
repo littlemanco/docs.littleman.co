@@ -11,3 +11,16 @@ steps:
     image: "quay.io/sitewards/antora"
     commands:
       - "node_modules/.bin/antora --generator 'generator' site.yml"
+
+---
+kind: "pipeline"
+name: "container"
+
+steps:
+  - name: "container"
+    image: "plugins/gcr"
+    settings:
+      repo: "littleman-co/docs-littleman-co"
+      dockerfile: "build/container/Dockerfile"
+      json_key:
+        from_secret: "DOCKER_PASSWORD"
