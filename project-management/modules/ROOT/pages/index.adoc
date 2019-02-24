@@ -24,5 +24,5 @@ as a by product of doing that work; for example:
 There are various "bots" that help with these tasks. These bots are essentially little computer programs that are
 designed to communicate different states of the project to users, and allow them to respond in a human friendly way.
 
-The best example is the "stale" bot, which will attempt to close issues if they've received no update for a period
-of time.
+The best example is xref:bots/stale.adoc[the "stale" bot], which will attempt to close issues if they've received no 
+update for a period of time.
