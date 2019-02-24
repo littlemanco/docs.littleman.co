@@ -1,6 +1,25 @@
 ---
 kind: "pipeline"
 name: "docs-web"
+steps:
+  - name: "antora"
+    environment:
+      DOCSEARCH_ENABLED: true
+      DOCSEARCH_ENGINE: "lunr"
+      NODE_PATH: "./src/js:/usr/local/lib/node_modules:./node_modules"
+    image: "quay.io/sitewards/antora"
+    commands:
+      - "npm install"
+      - "node node_modules/.bin/antora --generator 'generator' site.yml"
+
+trigger:
+  branch:
+    - "master"
+  event:
+    - "pull_request"
+---
+kind: "pipeline"
+name: "deploy"
 
 steps:
   - name: "antora"
@@ -19,12 +38,6 @@ steps:
       dockerfile: "build/container/Dockerfile"
       json_key:
         from_secret: "GOOGLE_SERVICE_ACCOUNT"
-
----
-kind: "pipeline"
-name: "deployment"
-
-steps:
   - name: "deploy"
     image: "quay.io/littlemanco/helm"
     environment:
@@ -45,6 +58,5 @@ steps:
 trigger:
   branch:
     - "master"
-
-depends_on:
-  - "docs-web"
+  event:
+    - "push"
