@@ -22,6 +22,7 @@ spec:
   template:
     metadata:
       annotations:
+        co.littleman.release.time: {{ .Release.Time }}
 {{- if .Values.pod.annotations }}
 {{ toYaml .Values.pod.annotations | indent 8 }}
 {{ end }}
