@@ -1,0 +1,19 @@
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  labels:
+    app: {{ template "docs-littleman-co.fullname" . }}
+    chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
+    heritage: "{{ .Release.Service }}"
+    release: "{{ .Release.Name }}"
+  name: {{ template "docs-littleman-co.fullname" . }}
+spec:
+  hosts:
+    - "docs.littleman.co"
+  gateways:
+   - {{ template "docs-littleman-co.fullname" . }}
+  http:
+  - route:
+    - destination:
+        host: {{ .Release.Name }}-docs-littleman-co
