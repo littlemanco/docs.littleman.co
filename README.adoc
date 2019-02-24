@@ -1,0 +1,8 @@
+= README
+
+[link=https://ci.corp.littleman.co/littlemanco/docs.littleman.co]
+image::https://ci.corp.littleman.co/api/badges/littlemanco/docs.littleman.co/status.svg?ref=refs/heads/master[]
+
+Documentation for the littleman.co service.
+
+See https://docs.littleman.co
