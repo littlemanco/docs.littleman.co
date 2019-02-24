@@ -1,0 +1,20 @@
+= Stale Bot
+
+In our experience there is always more work that should be done than the developers will get time to do. This usually
+means that the number of issues to be completed grows infinitely until navigating the issues becomes a hazard, and there
+is no hope of ever completing all of the work.
+
+However, what is important now tends not to be important over a longer period of time. Accordingly, while issues might
+have been created earlier with good intentions, it's possible that they're no longer relevant.
+
+The "stale bot" is an attempt to ensure that if work is important it will continue to "bubble up" to the top of the
+work queue, and work that is not important can fade away.
+
+It will comment on issues that have had no activity after a certain period of time, prompting the project owner to
+indicate whether that work is still relevant.
+
+If it is no longer relevant or there is no comment on the issue, it will be closed.
+
+== Further Reading
+
+- https://github.com/apps/stale[The stale bot home page]

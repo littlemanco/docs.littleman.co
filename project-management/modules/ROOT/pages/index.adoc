@@ -1,0 +1,28 @@
+= Project Management
+
+Project management is the process of taking abstract requirements such as "Redesign the checkout" and turning them 
+into specific work items that can be built by the development team.
+
+Broadly speaking, the process is as follows:
+
+1. Create an issue in the GitHub issues list
+2. Clarify any ambiguities about the issue
+3. Add the issue to the project "todo" list
+4. Develop and release the issue
+5. Repeat
+
+== Automated Management
+
+As much as possible issue management is automated. Issues should be automatically updated to reflect works progress
+as a by product of doing that work; for example:
+
+- Issues should be automatically closed after that work is deployed
+- Issues should be automatically added to the project board when created
+- Issues that are old and haven't been touched in a while will be closed as "stale", and need to be explicitly 
+  reopened.
+
+There are various "bots" that help with these tasks. These bots are essentially little computer programs that are
+designed to communicate different states of the project to users, and allow them to respond in a human friendly way.
+
+The best example is xref:bots/stale.adoc[the "stale" bot], which will attempt to close issues if they've received no 
+update for a period of time.
