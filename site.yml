@@ -11,6 +11,9 @@ content:
     - url: "."
       branches: "HEAD"
       start_path: "development"
+    - url: "."
+      branches: "HEAD"
+      start_path: "project-management"
 
 ui:
   bundle:
