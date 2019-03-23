@@ -1,2 +1,0 @@
-* xref:index.adoc[Media]
-** xref:long-form-publications.adoc[Long Form Publications]
