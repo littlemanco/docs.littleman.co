@@ -1,7 +1,0 @@
----
-name: "business"
-title: "Business"
-version: "master"
-nav:
-  - "modules/ROOT/nav.adoc"
-  - "modules/media/nav.adoc"

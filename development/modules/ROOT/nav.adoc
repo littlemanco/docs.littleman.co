@@ -1,3 +1,0 @@
-* xref:index.adoc[Development]
-** xref:tools.adoc[Tools]
-** xref:version-control.adoc[Version Control]

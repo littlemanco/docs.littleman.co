@@ -1,6 +1,0 @@
----
-name: "Project Management"
-title: "Project Management"
-version: "latest"
-nav:
-  - "modules/ROOT/nav.adoc"
